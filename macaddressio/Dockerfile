@@ -2,7 +2,7 @@ FROM golang:latest as builder
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app 
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo github.com/kamal2311/macaddressio .
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo github.com/prashanths125/Code-Repo/macaddressio .
 
 
 FROM alpine:latest as certs

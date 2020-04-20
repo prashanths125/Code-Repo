@@ -1,3 +1,3 @@
-module github.com/kamal2311/macaddressio
+module github.com/prashanths125/Code-Repo/macaddressio
 
 go 1.13
