@@ -11,15 +11,6 @@ This command line utility finds the company name associated with a MAC address a
 ## Get module
 `go get github.com/prashanths125/macaddressio`
 
-## Run 
-`export MACADDRESSIO_API_KEY=<Your api key>`
-
-`go run github.com/prashanths125/macaddressio <Mac Address>`
-
-e.g.
-
-`go run github.com/prashanths125/macaddressio 44:38:39:ff:ef:57`
-
 Sample output
 
 `Cumulus Networks, Inc`
